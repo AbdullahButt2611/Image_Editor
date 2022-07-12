@@ -16,7 +16,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container disable">
 
         <h2>Easy Image Editor</h2>
 
@@ -26,10 +26,10 @@
                     <label for="" class="title">Filters</label>
 
                     <div class="options">
-                        <button>Brightness</button>
-                        <button>Saturation</button>
-                        <button>Inversion</button>
-                        <button>Grayscale</button>
+                        <button id="brightness" class="active">Brightness</button>
+                        <button id="saturation"> Saturation</button>
+                        <button id="inversion">Inversion</button>
+                        <button id="grayscale">Grayscale</button>
                     </div>
 
                     <div class="slider">
@@ -46,10 +46,10 @@
                     <label for="" class="title">Rotate & Flip</label>
 
                     <div class="options">
-                        <button><i class='bx bx-rotate-left'></i></button>
-                        <button><i class='bx bx-rotate-right' ></i></button>
-                        <button><i class='bx bx-expand-vertical'></i></button>
-                        <button><i class='bx bx-expand-horizontal' ></i></button>
+                        <button id="left"><i class='bx bx-rotate-left'></i></button>
+                        <button id="right"><i class='bx bx-rotate-right' ></i></button>
+                        <button id="vertical"><i class='bx bx-expand-vertical'></i></button>
+                        <button id="horizontal"><i class='bx bx-expand-horizontal' ></i></button>
                     </div>
                 </div>
             </div>
@@ -63,6 +63,7 @@
             <button class="reset-filter">Reset Filters</button>
 
             <div class="row">
+                <input type="file" accept="image/*" class="file-input" hidden>
                 <button class="choose-img">Choose Image</button>
                 <button class="save-img">Save Image</button>
 
@@ -70,5 +71,7 @@
         </div>
     </div>
 
+
+    <script src="script.js"></script>
 </body>
 </html>
