@@ -13,7 +13,7 @@ If anyone wants to see this application in running state, check the link given b
 ## Link To Video
 
 You can also follow the tutorial throug my channel:<br>
-[Click Here]() to access the video
+[Click Here](https://youtu.be/Txo-DcdMzoM) to access the video
 <br><br>
 
 ## GUI
